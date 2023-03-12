@@ -9,23 +9,23 @@ The program first creates a 2D map of the environment with the obstacles marked 
 
 The program then uses Dijkstra's algorithm to find the optimal path from the start node to the goal node while avoiding the obstacles. The algorithm is visualized using animation, with each visited node marked in blue and the optimal path marked in green. The final cost of the path is also displayed.
 ## Contents
-project2_vishnu_mandala.pdf
-dijkstra_vishnu_mandala.py
-project2_output.png
-animation.mp4
-README.md
+1. project2_vishnu_mandala.pdf
+2. dijkstra_vishnu_mandala.py
+3. project2_output.png
+4. animation.mp4
+5. README.md
 
 ## Dependencies
 
-python 3.11 (any version above 3 should work)
-Python running IDE (I used VS Code)
+1. python 3.11 (any version above 3 should work)
+2. Python running IDE (I used VS Code)
 
 ## Libraries
 
-NumPy
-Queue
-Time
-OpenCV
+1. NumPy
+2. Queue
+3. Time
+4. OpenCV
 
 ## Instructions
 1. Download the zip file and extract it
