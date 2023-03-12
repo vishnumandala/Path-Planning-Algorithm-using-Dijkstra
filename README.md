@@ -1,38 +1,38 @@
-###PROJECT2
-##ENPM661 - Planning For Autonomous Robots
+PROJECT2
+ENPM661 - Planning For Autonomous Robots
 
-##Path Planning Algorithm
+Path Planning Algorithm
 This program implements a path planning algorithm using Dijkstra's algorithm to find the optimal path from a start node to a goal node in a 2D environment with obstacles. The obstacles are defined using equations, and the map parameters include width, height, and clearance.
 
 The program first creates a 2D map of the environment with the obstacles marked as black and the free space marked as white. The boundaries and clearances are marked as gray. The start and goal nodes are also defined on this map.
 
 The program then uses Dijkstra's algorithm to find the optimal path from the start node to the goal node while avoiding the obstacles. The algorithm is visualized using animation, with each visited node marked in blue and the optimal path marked in green. The final cost of the path is also displayed.
 
-##Dependencies
+Dependencies
 	python 3.11 (any version above 3 should work)
 	Python running IDE (I used VS Code)
 
-##Libraries
+Libraries
 	NumPy
 	Queue
-  Time
-  OpenCV
+	Time
+	OpenCV
 
-##Contents
+Contents
 project2_vishnu_mandala.pdf
 dijkstra_vishnu_mandala.py
 project2_output.png
 animation.mp4
 README.md
 
-##Instructions
+Instructions
 	1. Download the zip file and extract it
 	2. Install python and the required dependencies: pip install numpy opencv-python
 	3. Run the code: dijkstra_vishnu_mandala.py
 	4. Type in the Start and Goal Nodes in the format (x y)
     5. The optimal path will be displayed on the screen and saved to a video file named animation.mp4 in the same directory as the program. The final cost of the path will be displayed in the console.
 
-##Example Output
+Example Output
 
 Enter the start node (in the format 'x y'): 30 80   
 Enter the goal node (in the format 'x y'): 580 235
