@@ -46,7 +46,7 @@ Shortest Path: [(30, 80), (31, 80), (32, 80), (33, 80), (34, 80), (35, 80), (36,
 Runtime: 3170.4209847450256 seconds
 
 ## Output Photo
-https://github.com/vishnumandala/Path-Planning-Algorithm-using-Dijkstra/blob/main/project2_output.png
+![Dijkstra](https://github.com/vishnumandala/Path-Planning-Algorithm-using-Dijkstra/blob/main/project2_output.png)
 
 ## Animation
 https://drive.google.com/file/d/1ub8bajCIv_whbNvC7grPDG7kU6bOD3gS/view?usp=share_link
